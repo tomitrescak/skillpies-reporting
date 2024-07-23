@@ -1,0 +1,18 @@
+name: "SkillPies.com Test Reporting"
+description: "Reports test results to SkillPies.com"
+inputs:
+  sectionId: # id of input
+    description: "Url Id of the section to report"
+    required: true
+    default: ""
+  courseId: # id of input
+    description: "Url Id of the course to report"
+    required: true
+    default: ""
+  testResult:
+    description: "Base64 encoded test result from Grithub Classroom"
+    required: true
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
