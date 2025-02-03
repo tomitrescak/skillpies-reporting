@@ -39,7 +39,7 @@ Reports the Github Classroom test results to SkillPies.com
     runners: npm
 - name: Report to SkillPies
   if: always() # run on failed tests as well
-  uses: tomitrescak/skillpies-reporting
+  uses: tomitrescak/skillpies-reporting@v1
   with:
     courseId: my-course,
     sectionId: my-section,
