@@ -43,5 +43,5 @@ Reports the Github Classroom test results to SkillPies.com
   with:
     courseId: my-course,
     sectionId: my-section,
-    testResults: ${{steps.npm.outputs.result}}
+    testResult: ${{steps.npm.outputs.result}}
 ```
